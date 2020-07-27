@@ -12,7 +12,7 @@ Write all of your code inside `calculateLargestNumber()`.
 
 Given the input
 
-[3134,5383,282,21,9999]
+[3134, 5383, 282, 21, 9999]
 
 the function should return
 
