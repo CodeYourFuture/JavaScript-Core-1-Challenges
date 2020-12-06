@@ -1,7 +1,7 @@
 function calculateLargestNumber(arrayOfNumbers) {
     // Write your code in here
 
-    return Math.max.apply(Math, arrayOfNumbers);;
+    return Math.max.apply(Math, arrayOfNumbers);
 }
 
 /**                            */
