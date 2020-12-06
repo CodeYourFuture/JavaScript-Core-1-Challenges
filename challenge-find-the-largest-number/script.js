@@ -5,7 +5,6 @@ function calculateLargestNumber(arrayOfNumbers) {
       number = arrayOfNumbers[i];
     }
   }
-
   return number;
 }
 
