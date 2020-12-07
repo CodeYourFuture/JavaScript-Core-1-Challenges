@@ -1,8 +1,18 @@
+// A function to find out the largest of the numbers in a given array
+// The function takes an array of numbers as a parameter and returns the largest number
 function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
-
-  return 1;
+    // Declare a variable and assign to it the first number in the array
+    let largestNumber = arrayOfNumbers[0];
+    // Loop through arrayOfNumbers array to determine the largest number
+    for (let i = 1; i < arrayOfNumbers.length; i++){
+        if (arrayOfNumbers[i] > largestNumber) {
+            largestNumber = arrayOfNumbers[i];
+        }
+    }
+    
+  return largestNumber;
 }
+
 
 /**                            */
 /**                            */
