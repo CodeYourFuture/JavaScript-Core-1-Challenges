@@ -1,14 +1,14 @@
 // ---------------------------------First Working Solution---------------------------
 
-function calculateLargestNumber(arrayOfNumbers) {
-  let biggest = 0;
-  for (let i = 0; i < arrayOfNumbers.length; i++){
-    if (biggest < arrayOfNumbers[i]) {
-      biggest = arrayOfNumbers[i];
-    }
-  }
-  return  biggest;
-}
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let biggest = 0;
+//   for (let i = 0; i < arrayOfNumbers.length; i++){
+//     if (biggest < arrayOfNumbers[i]) {
+//       biggest = arrayOfNumbers[i];
+//     }
+//   }
+//   return  biggest;
+// }
 
 
 // ---------------------------------Second Working Solution---------------------------
