@@ -1,7 +1,16 @@
+// function to find the largest number in given array
 function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
+  var largestNumber = arrayOfNumbers[0];
+  // call the compare function for each element in the array
+  arrayOfNumbers.forEach(compare);
 
-  return 1;
+  function compare(value)
+  {
+    if(largestNumber < value)
+      largestNumber = value;
+  }
+
+  return largestNumber;
 }
 
 /**                            */
