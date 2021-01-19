@@ -1,9 +1,12 @@
 function missingNum(arr) {
-  for (let i = 1; i <= arr.length + 1; i++) {
-    if (arr.indexOf(i) === -1) return i;
+  let number = arr.length + 1;
+  let sumOfNumbers = number*(number+1)/2;
+  let sumOfArray = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sumOfArray += arr[i];
   }
-
-  return 0;
+  let missingNumber = sumOfNumbers - sumOfArray;
+  return missingNumber;
 }
 
 /**                            */
