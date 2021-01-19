@@ -1,3 +1,29 @@
+<<<<<<< Updated upstream
+=======
+// First solution with using "FOR LOOP" method.
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let largest = 0;
+//   for(let i = 0; i < arrayOfNumbers.length; i++){
+//     if(arrayOfNumbers[i] > largest){
+//       largest = arrayOfNumbers[i];
+//     }
+//   }
+//   return largest;
+// }
+
+// Second solution with using "FOREACH" method
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let largest = 0;
+//   arrayOfNumbers.forEach((num) => {
+//     if(num > largest) {
+//       largest = num
+//     }
+//   })
+//   return largest;
+// }
+
+// Third solution with using "REDUCE" Method
+>>>>>>> Stashed changes
 function calculateLargestNumber(arrayOfNumbers) {
   // Write your code in here
 
