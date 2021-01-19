@@ -11,7 +11,7 @@
 //   return largest;
 // }
 
-// Second solution with using "FOREACH" method
+// Second solution with using "FOREACH" method.
 // function calculateLargestNumber(arrayOfNumbers) {
 //   let largest = 0;
 //   arrayOfNumbers.forEach((num) => {
@@ -22,7 +22,7 @@
 //   return largest;
 // }
 
-// Third solution with using "REDUCE" Method
+// Third solution with using "REDUCE" method.
 >>>>>>> Stashed changes
 function calculateLargestNumber(arrayOfNumbers) {
   // Write your code in here
