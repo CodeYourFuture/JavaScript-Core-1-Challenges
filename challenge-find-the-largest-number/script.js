@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 // First solution with using "FOR LOOP" method.
 // function calculateLargestNumber(arrayOfNumbers) {
 //   let largest = 0;
@@ -23,11 +21,9 @@
 // }
 
 // Third solution with using "REDUCE" method.
->>>>>>> Stashed changes
 function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
-
-  return 1;
+  let largest = arrayOfNumbers.reduce((a, b) => Math.max(a, b));
+  return largest
 }
 
 /**                            */
