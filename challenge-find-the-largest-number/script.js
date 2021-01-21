@@ -21,8 +21,15 @@
 // }
 
 // Third solution with using "REDUCE" method.
-function calculateLargestNumber(arrayOfNumbers) {
-  let largest = arrayOfNumbers.reduce((a, b) => Math.max(a, b));
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let largest = arrayOfNumbers.reduce((a, b) => Math.max(a, b));
+//   return largest
+// }
+
+// Fourth solution with using "SORT" method.
+
+function calculateLargestNumber(arrayOfNumbers){
+  let largest = Math.max(...arrayOfNumbers.sort((a, b) => (b - a)));
   return largest
 }
 
