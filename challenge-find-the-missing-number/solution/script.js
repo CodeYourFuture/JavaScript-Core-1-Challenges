@@ -1,5 +1,6 @@
 function missingNum(arr) {
   for (let i = 1; i <= arr.length + 1; i++) {
+    console.log(arr.indexOf(i));
     if (arr.indexOf(i) === -1) return i;
   }
 }
