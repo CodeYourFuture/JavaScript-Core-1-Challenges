@@ -11,11 +11,9 @@ function missingNum(arr) {
   let x2;
   for (let i = 0; i < n; i++) {
     x1 = x1 ^ arr[i];
-    console.log('x1 is ' + x1)
   }
   for (let i = 0; i < n + 2; i++) {
     x2 = x2 ^ i;
-    console.log('x2 is ' + x2);
   }
   return (x1^x2);
 }
