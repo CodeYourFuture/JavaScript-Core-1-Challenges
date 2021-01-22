@@ -1,6 +1,5 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  
 }
 
 /**                            */
