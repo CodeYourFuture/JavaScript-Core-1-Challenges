@@ -1,6 +1,14 @@
+// I had some help with this
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  let orderedArray = arr.sort(function(a, b){return a-b});
+  //Write your code in here. You should return the missing one below.
+  for (i = 0; i < orderedArray.length; i++) {
+    if (i == orderedArray[i] - 1) {
+    } else {
+      return i + 1;
+    }
+  }
+  return 10;
 }
 
 /**                            */
