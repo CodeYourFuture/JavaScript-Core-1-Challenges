@@ -1,6 +1,16 @@
 function missingNum(arr) {
+  let missingNumber;
+  for (i = 1; i <= 10; i++){
+    if(arr.indexOf(i) === -1){
+      missingNumber= i;
+    }
+  }
   
+return missingNumber;
 }
+
+
+
 
 /**                            */
 /**                            */
