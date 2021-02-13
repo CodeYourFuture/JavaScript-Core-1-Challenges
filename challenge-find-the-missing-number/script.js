@@ -1,6 +1,10 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
+  let numbersUpToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  return numbersUpToTen.find((elem) => {
+    let checkPresence = arr.includes(elem);
+    if (checkPresence === false) return elem;
+  });
 }
 
 /**                            */
