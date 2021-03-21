@@ -1,8 +1,29 @@
+/* Explanation
+-firstly I create a sortArray function (sort number from ascending) and call it later on (callback function) in the the missingNum function with the sort() method
+The reason I have done that were because I was failing in an array whose numbers were stored randomly. eg test 2,4,and 5.
+- I created a counter variable that would count for me. And inside the loop 
+I am have a if statement ,  that said : if the counter is not equal to the corresponding element(index) in the array
+then return the missing Number
+
+*/
+function sortArray(a,b){
+  return a - b;
+}
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
-}
+   arr.sort(sortArray)
+  var counter=0;
+  for (let startIndex=0; startIndex < arr.length + 1; startIndex++){
+    counter= counter +1;
+    if (arr[startIndex] !== counter){
+      return counter;
+    }
+      
+    }
+  }
+  
 
+const { count } = require("console");
 /**                            */
 /**                            */
 /** DO NOT EDIT BELOW THIS LINE*/

@@ -1,9 +1,18 @@
+/* Explanation 
+I made used of the  Array.reduce() method to getting the maximum element of an array.
+The Array.reduce can be used to find the maximum element in a numeric array by comparing each value.
+*/
 function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
-
-  return 1;
+  let greaterNumber=arrayOfNumbers.reduce((a,b)=>{
+    return Math.max(a,b)
+  })
+  return greaterNumber;
 }
-
+// var arr= [1,2,3];
+// var max=arr.reduce( (a,b) =>{
+// return Math.max(a,b);
+// })
+// console.log(max)
 /**                            */
 /**                            */
 /**                            */
