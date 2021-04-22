@@ -1,6 +1,11 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
+  let missNum = 1+2+3+4+5+6+7+8+9+10;
+  for (let i=0; i<arr.length; i++){
+    missNum = missNum - arr[i];
+  }
+  
+  return missNum;
 }
 
 /**                            */
