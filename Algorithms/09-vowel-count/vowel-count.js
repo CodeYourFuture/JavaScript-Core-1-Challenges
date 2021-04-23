@@ -10,3 +10,4 @@ var vowelCount = function(str) {
         }
     }
 };
+
