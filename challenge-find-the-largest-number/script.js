@@ -1,4 +1,10 @@
 function calculateLargestNumber(arrayOfNumbers) {
+  for(let i = 0; i < arrayOfNumbers.length; i++) {
+    if(arrayOfNumbers[i] < arrayOfNumbers[i+1]) {
+      let maxNumber = arrayOfNumbers[i+1];
+      return maxNumber;
+    }
+  }
   // Write your code in here
 
   return 1;
