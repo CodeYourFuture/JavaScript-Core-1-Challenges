@@ -1,49 +1,25 @@
-function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
-
-  let largest = 0;
-  for (i = 0; i < arrayOfNumbers.length; i++) {
-    if (arrayOfNumbers[i] > largest) {
-      largest = arrayOfNumbers[i];
-    }
-    return largest;
+function missingNum(arr) {
+  //Write your code in here. You should return the missing the number below.
+  for (let i = 1; i <= arr.length + 1; i++) {
+    if (arr.indexOf(i) === -1) return i;
   }
+
+  return 0;
 }
-/**                            */
+
 /**                            */
 /**                            */
 /** DO NOT EDIT BELOW THIS LINE*/
 /**                            */
 /**                            */
-/**                            */
-/**                            */
 
 const util = require("util");
 
-console.log("---------------");
-let randomList = generateLargeListOfNumbers();
-let largestRandom = calculateLargestNumber(generateLargeListOfNumbers());
-console.log(
-  "Given the array of random numbers that looks like this: " +
-    randomList.toString()
-);
-
-console.log("");
-console.log("You have said the largest number was " + largestRandom);
-console.log("Is this right?");
-console.log("---------------");
-
-test(["Code works for a small array"], calculateLargestNumber([1, 2, 3]), 3);
-test(
-  ["Code works for a medium array"],
-  calculateLargestNumber([1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]),
-  3
-);
-test(
-  ["Code works for a negative numbers"],
-  calculateLargestNumber([1, -2, -3]),
-  1
-);
+test("Test 1", missingNum([1, 2, 3, 4, 6, 7, 8, 9, 10]), 5);
+test("Test 2", missingNum([7, 2, 3, 6, 5, 9, 1, 4, 8]), 10);
+test("Test 3", missingNum([7, 2, 3, 9, 4, 5, 6, 8, 10]), 1);
+test("Test 4", missingNum([10, 5, 1, 2, 4, 6, 8, 3, 9]), 7);
+test("Test 5", missingNum([1, 7, 2, 4, 8, 10, 5, 6, 9]), 3);
 
 function test(test_name, actual, expected) {
   let status;
