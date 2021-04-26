@@ -1,8 +1,21 @@
-function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
+// Option A - using .sort()
 
-  return 1;
+function calculateLargestNumber(arrayOfNumbers) {
+  let sortedArray = arrayOfNumbers.sort();
+  return sortedArray[sortedArray.length - 1];
 }
+
+// Option B - for loop with if statement [I had some help with this option]
+
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let biggestSoFar = arrayOfNumbers[0];
+//   for (let i = 1; i < arrayOfNumbers.length; i++) {
+//     if (arrayOfNumbers[i] > biggestSoFar) {
+//       biggestSoFar = arrayOfNumbers[i];
+//     }
+//   }
+//   return biggestSoFar;
+// }
 
 /**                            */
 /**                            */
