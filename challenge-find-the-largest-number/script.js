@@ -1,8 +1,30 @@
-function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
+// ---------------------------------First Working Solution---------------------------
 
-  return 1;
+// function calculateLargestNumber(arrayOfNumbers) {
+//   let biggest = 0;
+//   for (let i = 0; i < arrayOfNumbers.length; i++){
+//     if (biggest < arrayOfNumbers[i]) {
+//       biggest = arrayOfNumbers[i];
+//     }
+//   }
+//   return  biggest;
+// }
+
+
+// ---------------------------------Second Working Solution---------------------------
+
+function calculateLargestNumber(arrayOfNumbers) {
+
+  return  arrayOfNumbers.sort(function(a, b) { return a > b ? -1 : 1}).shift()
 }
+
+console.log("-------------------------------------------------");
+let arrayTry = generateLargeListOfNumbers();
+console.log(arrayTry.sort(function(a, b) { return a > b ? 1 : -1}).pop());
+console.log("-------------------------------------------------");
+
+
+
 
 /**                            */
 /**                            */
@@ -17,6 +39,7 @@ const util = require("util");
 
 console.log("---------------");
 let randomList = generateLargeListOfNumbers();
+// randomList = randomList.sort();
 let largestRandom = calculateLargestNumber(generateLargeListOfNumbers());
 console.log(
   "Given the array of random numbers that looks like this: " +
