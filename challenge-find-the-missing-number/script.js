@@ -1,6 +1,14 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
+  let i = 1;
+  while (arr.includes(i)) {
+    i++;
+    if (i > 10) {
+      i = null;
+      break;
+    }
+  }
+  return i;
 }
 
 /**                            */
