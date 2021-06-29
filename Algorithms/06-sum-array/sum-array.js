@@ -6,12 +6,3 @@ var sumArray = function (arr) {
 };
 
 sumArray([4, 8, 15, 16, 23, 42]);
-
-// ! Another Solution
-/*
-var sumArray = function (arr) {
-  console.log(arr.reduce((a, b) => a + b, 0));
-};
-
-sumArray([1, 2, 3, 4]);
-*/
