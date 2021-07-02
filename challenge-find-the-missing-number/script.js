@@ -1,6 +1,6 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  let arrExpectedTotal = 55;
+  const ARR_EXPECTED_TOTAL = 55;
   let arrActualTotal = 0;
   let missingNumber = 0;
 
@@ -8,7 +8,7 @@ function missingNum(arr) {
     arrActualTotal += arr[i];
   }
 
-  missingNumber = arrExpectedTotal - arrActualTotal;
+  missingNumber = ARR_EXPECTED_TOTAL - arrActualTotal;
 
   return missingNumber;
 }
