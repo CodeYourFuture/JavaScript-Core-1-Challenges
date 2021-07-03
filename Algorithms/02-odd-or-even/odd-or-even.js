@@ -4,7 +4,7 @@
 var oddOrEven = function (num) {
   let remainder = num % 2;
 
-  if (remainder == 0) {
+  if (remainder === 0) {
     return "even";
   } else {
     return "odd";

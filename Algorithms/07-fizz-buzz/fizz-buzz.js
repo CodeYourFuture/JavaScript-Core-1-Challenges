@@ -10,11 +10,11 @@ let fizzBuzz = function (arr) {
     let fizz = arr[i] % 3;
     let buzz = arr[i] % 5;
 
-    if (fizz == 0 && buzz == 0) {
+    if (fizz === 0 && buzz === 0) {
       console.log("Fizz Buzz");
-    } else if (fizz == 0) {
+    } else if (fizz === 0) {
       console.log("Fizz");
-    } else if (buzz == 0) {
+    } else if (buzz === 0) {
       console.log("Buzz");
     } else {
       console.log(number);

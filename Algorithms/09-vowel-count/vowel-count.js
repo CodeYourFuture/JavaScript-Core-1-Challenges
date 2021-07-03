@@ -10,11 +10,11 @@ let vowelCount = function (str) {
   for (i = 0; i < characters.length; i++) {
     let character = characters[i];
     if (
-      character == "a" ||
-      character == "e" ||
-      character == "i" ||
-      character == "o" ||
-      character == "u"
+      character === "a" ||
+      character === "e" ||
+      character === "i" ||
+      character === "o" ||
+      character === "u"
     ) {
       numberOfVowels++;
     }

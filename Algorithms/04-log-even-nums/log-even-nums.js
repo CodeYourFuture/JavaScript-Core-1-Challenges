@@ -6,7 +6,7 @@ var logEvenNums = function (num) {
   for (let i = 0; i < highestNumber; i++) {
     remainder = i % 2;
 
-    if (remainder == 0) {
+    if (remainder === 0) {
       console.log(i);
     }
   }
