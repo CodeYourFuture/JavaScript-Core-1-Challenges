@@ -10,4 +10,3 @@ var logEvenNums = function(num) {
     }
 };
 
-console.log(logEvenNums(6));
