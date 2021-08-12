@@ -1,8 +1,16 @@
-function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
+// declare  a variable called highNum to hold the highest value in the array
 
-  return 1;
+function calculateLargestNumber(arrayOfNumbers) {
+  let highNum = 0;
+  for (num of arrayOfNumbers) {
+    if (num > highNum) {
+      highNum = num;
+    }
+  }
+  return highNum;
 }
+
+//calculateLargestNumber([3134, 5383, 282, 21, 9999]);
 
 /**                            */
 /**                            */

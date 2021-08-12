@@ -1,5 +1,12 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
+  for(let i = 1; i < 11; i++) {
+    if(arr.includes(i)) {
+      continue;
+    } else {
+      return i;
+    }
+  }
+
   return 0;
 }
 
