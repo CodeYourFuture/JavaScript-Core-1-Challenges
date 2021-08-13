@@ -1,6 +1,10 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  arr.sort(function(a,b){return a-b});
+  for (i=0; i<=10; i++){
+    if (arr[i] !== i+1){
+      return i+1;
+    }
+  }
 }
 
 /**                            */
