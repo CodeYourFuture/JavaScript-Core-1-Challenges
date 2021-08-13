@@ -1,8 +1,10 @@
+
 function calculateLargestNumber(arrayOfNumbers) {
   // Write your code in here
+  var largest = Math.max.apply(Math, arrayOfNumbers);
+  return largest;
+};
 
-  return 1;
-}
 
 /**                            */
 /**                            */
