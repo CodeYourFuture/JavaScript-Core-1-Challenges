@@ -1,7 +1,11 @@
 function calculateLargestNumber(arrayOfNumbers) {
-  // Write your code in here
-
-  return 1;
+  let largestNumber = 0;
+  arrayOfNumbers.forEach((element) => {
+    if (element > largestNumber) {
+      largestNumber = element;
+    }
+  });
+  return largestNumber;
 }
 
 /**                            */

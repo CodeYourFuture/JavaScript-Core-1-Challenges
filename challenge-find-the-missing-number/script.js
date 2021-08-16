@@ -1,6 +1,11 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  let total = 0;
+  // adding every element to total
+  arr.forEach((element) => {
+    total += element;
+  });
+  // 55 is 1 to 10 added. So 1 + 2 + 3... So we can find the number by just subtracting our total from 55
+  return 55 - total;
 }
 
 /**                            */
