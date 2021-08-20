@@ -5,6 +5,6 @@ var vowelCount = function (str) {
   return vowels === null ? 0 : vowels.length;
 };
 
-let testStr = " ";
+let testStr = " a.xaaaaze,.iou - _";
 
 console.log(vowelCount(testStr));

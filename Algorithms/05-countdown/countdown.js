@@ -6,3 +6,5 @@ var countdown = function (num) {
     console.log(i);
   }
 };
+
+countdown(10);

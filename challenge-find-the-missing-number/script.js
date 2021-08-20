@@ -1,7 +1,24 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
+
+  let mia = [];
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[0] != 1) {
+      mia.push(1);
+      break;
+    } else if (arr[arr.length - 1] != 10) {
+      mia.push(10);
+      break;
+    } else if (Math.abs(arr[i] - arr[i + 1]) != 1) {
+      mia.push(arr[i] + 1);
+      break;
+    }
+  }
+  return mia;
 }
+
+numRange = [1, 2, 4, 5, 7, 8, 9, 10];
+console.log(missingNum(numRange));
 
 /**                            */
 /**                            */

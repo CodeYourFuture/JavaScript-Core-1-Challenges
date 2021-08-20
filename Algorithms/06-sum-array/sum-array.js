@@ -1,12 +1,12 @@
 // Write code to add all the numbers in `arr` and return the total
 
-var sumArray = function (a) {
+function sumArray(a) {
   var total = 0;
   for (var i in a) {
     total += a[i];
   }
   return total;
-};
+}
 
 var arr = [3, 1, 5, 6];
 

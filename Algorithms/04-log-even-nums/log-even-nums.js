@@ -9,4 +9,4 @@ var logEvenNums = function (num) {
   }
 };
 
-logEvenNums(6);
+logEvenNums(10);
