@@ -17,7 +17,7 @@ function missingNum(arr) {
   return mia;
 }
 
-numRange = [1, 2, 4, 5, 7, 8, 9, 10];
+numRange = [1, 2, 3, 4, 5,6, 7, 8,  10];
 console.log(missingNum(numRange));
 
 /**                            */
