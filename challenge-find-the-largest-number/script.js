@@ -1,8 +1,14 @@
 function calculateLargestNumber(arrayOfNumbers) {
+  for (i = 0; i <= largest; i++) {
+    if (array > largest) {
+      var largest = array[i];
+    }
+  }
+
+  console.log(calculateLargestNumber);
   // Write your code in here
 
-  return 1;
-}
+};
 
 /**                            */
 /**                            */

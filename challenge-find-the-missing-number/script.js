@@ -1,7 +1,15 @@
 function missingNum(arr) {
+
+  for (var j = 0; j < a.length; j++) {
+    for (var i = 1; i <= count; i++) {
+      if (a[j] != i) {
+        missing.push(i);
+      }
+    }
+  }
+};
   //Write your code in here. You should return the missing the number below.
-  return 0;
-}
+
 
 /**                            */
 /**                            */
