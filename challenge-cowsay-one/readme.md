@@ -28,7 +28,7 @@ Cowsay is a fun script that prints an [ASCII](https://simple.wikipedia.org/wiki/
 
 ```
 
-Cowsay was originally written in [Perl](https://simple.wikipedia.org/wiki/Perl). In this coursework, we will run it with Node. How would we go about this? What things would be helpful? I think we could use:
+Cowsay was originally written in [Perl](https://simple.wikipedia.org/wiki/Perl), but has been written in many other programming languages too. In this coursework, we will run it with Node. How would we go about this? What things would be helpful? I think we could use:
 
 - A node package that contains the cowsay library. I'll start you off by letting you know there is one, and it is called `cowsay`
 - A way to execute the script.
