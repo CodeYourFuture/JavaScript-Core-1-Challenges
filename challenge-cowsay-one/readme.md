@@ -77,7 +77,7 @@ What are the downsides of this approach? Make a prediction.
 
 I would say one is that we want to be able to pass in arguments, not just always say moo. How could we make the cow say Baaaa?
 
-Remove the hardcoded "Mooooo". Can you pass a different string in the command line?
+Remove the hardcoded "Mooooo". Can you pass a different string in the command line without making any other changes to any files?
 
 ### node
 
