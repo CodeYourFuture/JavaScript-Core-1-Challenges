@@ -87,7 +87,7 @@ Now let's execute cowsay in a different way. Open `index.js` (from your `cowsayi
 const cowsay = require("cowsay");
 ```
 
-And log a cow to the console that says "I require a package". Look, I have set values for the eyes and tongue. How have I done that? Make a prediction.
+And log a cow to the console that says "I require a package". Look, I have set values for the eyes and tongue. How have I done that? Have a guess first before you look in the code.
 
 ```js
 console.log(
