@@ -81,7 +81,7 @@ Remove the hardcoded "Mooooo". Can you pass a different string in the command li
 
 ### node
 
-Now let's execute cowsay in a different way. Open /index.js in your text editor. Import the cowsay package with require.
+Now let's execute cowsay in a different way. Open `index.js` (from your `cowsaying` directory) in your text editor. Import the `cowsay` package with `require`.
 
 ```js
 const cowsay = require("cowsay");
