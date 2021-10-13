@@ -57,7 +57,7 @@ npm install cowsay
 
 ### npm run
 
-Let's find out how to execute cowsay from our package.json. Open /cowsaying in your IDE and look at the [package.json](https://nodejs.dev/learn/the-package-json-guide).
+Let's find out how to execute cowsay from our package.json. Open the `cowsaying` directory you made earlier in your IDE and look at the [package.json](https://nodejs.dev/learn/the-package-json-guide).
 
 Add cowsay to the scripts object.
 
