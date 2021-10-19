@@ -5,7 +5,6 @@ function calculateLargestNumber(arrayOfNumbers) {
       largest = arrayOfNumbers[i];
     }
   }
-
   return largest;
 }
 
@@ -16,7 +15,9 @@ function calculateLargestNumber(arrayOfNumbers) {
 /**                            */
 /**                            */
 /**                            */
-/**                            */
+/**      
+ 
+                      */
 
 const util = require("util");
 
