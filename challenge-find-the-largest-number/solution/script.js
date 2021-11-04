@@ -3,11 +3,22 @@ function calculateLargestNumber(arrayOfNumbers) {
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] > largest) {
       largest = arrayOfNumbers[i];
+      
     }
   }
 
   return largest;
 }
+// function findmax(array) {
+//   var max = 0;
+//   for (i = 0; i < array.length; i++) {
+//     if (array[i] > max) {
+//       max = array[i];
+//     }
+//   }
+//   return max;
+// }
+// console.log(findmax([200, 400, 100, 99]));
 
 /**                            */
 /**                            */
