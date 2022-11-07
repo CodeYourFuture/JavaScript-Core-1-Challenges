@@ -1,6 +1,10 @@
 function missingNum(arr) {
   //Write your code in here. You should return the missing the number below.
-  return 0;
+  for (let num of arr) {
+    for (let numChk of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) {
+      if (!arr.includes(numChk)) return numChk;
+    }
+  }
 }
 
 /**                            */

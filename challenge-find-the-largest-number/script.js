@@ -1,7 +1,7 @@
 function calculateLargestNumber(arrayOfNumbers) {
   // Write your code in here
 
-  return 1;
+  return Math.max(...arrayOfNumbers);
 }
 
 /**                            */
@@ -20,7 +20,7 @@ let randomList = generateLargeListOfNumbers();
 let largestRandom = calculateLargestNumber(generateLargeListOfNumbers());
 console.log(
   "Given the array of random numbers that looks like this: " +
-    randomList.toString()
+  randomList.toString()
 );
 
 console.log("");
