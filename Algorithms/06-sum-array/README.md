@@ -13,7 +13,7 @@ In this activity you will be writing code to create a function that adds up all 
       - e.g. given the following array:
 
       ```js
-      var arr = [3, 1, 5, 6];
+      let arr = [3, 1, 5, 6];
       ```
 
       - The following number should be returned:
