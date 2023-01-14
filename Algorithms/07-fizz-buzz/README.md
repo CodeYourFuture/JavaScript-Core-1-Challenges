@@ -21,7 +21,7 @@ In this activity you will be writing code to create a function that solves the [
       - e.g. given the following array:
 
       ```js
-      var arr = [13, 14, 15, 16, 17, 18, 19, 20];
+      let arr = [13, 14, 15, 16, 17, 18, 19, 20];
       ```
 
       - The following should be printed to the console:
