@@ -1,6 +1,15 @@
 function missingNum(arr) {
-  //Write your code in here. You should return the missing the number below.
-  return 0;
+  let completeArray = [];
+  for (let i = 1; i <= 10; i++) {
+    completeArray.push(i);
+  }
+  for (let i = 0; i < completeArray.length; i++) {
+    if (arr.indexOf(completeArray[i]) === -1) {
+      return completeArray[i];
+    }
+  }
+  // const completeArray = Array.from({ length: 10 }, (element, index) => index + 1);
+  // return Number(completeArray.filter(element => arr.indexOf(element) === -1));
 }
 
 /**                            */
