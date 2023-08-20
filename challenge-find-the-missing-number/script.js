@@ -1,6 +1,16 @@
+//NOT FINISHED YET
+let arr1=[1,2, 3, 4, 5, 6, 7, 8, 9, 10];
+ 
 function missingNum(arr) {
+  let missingNum = 0;
+  for(let i=0; i>= arr.length; i++){
+    arrSorted =arr.sort();
+    if(arrSorted[i] !=arr1[i]){
+      missingNum = arr1[i];
+      return missingNum;
+    }
+  }
   //Write your code in here. You should return the missing the number below.
-  return 0;
 }
 
 /**                            */
